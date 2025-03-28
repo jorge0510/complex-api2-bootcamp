@@ -1,0 +1,101 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.nasaImage{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background: #0032A0;
+}
+
+nav {
+  background: #fff;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  width: 140px;
+  font-family: 'Inter', Arial;
+  font-size: 2em;
+  word-wrap: break-word;
+  margin: 20px 100px 0 20px;
+}
+
+button {
+  height: 72px;
+  background: #0032A0;
+  color: white;
+  border: none;
+  box-shadow: none;
+  padding: 5px 15px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-family: 'Open Sans', Arial;
+  cursor: pointer;
+}
+
+
+
+main {
+  margin: -30px;
+  padding: 30px 30px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+main > div {
+  
+  margin-top: 50px;
+  background: #ededed;
+  border-radius: 4px;
+  width: 700px;
+  height: 950px;
+  overflow: hidden scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: flex-start;
+  gap: 20px;
+  
+}
+
+.text {
+  padding: 50px 40px;
+}
+
+h2 {
+  font-family: 'Inter', Arial;
+  display: block;
+  font-size: 2em;
+  height: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
